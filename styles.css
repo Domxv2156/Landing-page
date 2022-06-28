@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+   
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 218, 228);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(169, 184, 196);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.header {
+    background-color: rgb(72, 87, 100);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+   
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 6px;
+    gap: 4px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 8px;
+    margin-right: 6px;
+}
