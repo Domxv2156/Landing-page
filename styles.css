@@ -12,8 +12,6 @@ body {
    
 }
 
-
-
 a {
     text-decoration: none;
     color: rgb(206, 218, 228);
@@ -28,9 +26,10 @@ h3 {
 
 .header {
     background-color: rgb(72, 87, 100);
-    display: flex;
+display: flex;
     justify-content: space-between;
     height: 70px;
+    
    
 }
 
@@ -74,8 +73,9 @@ h3 {
     width: auto;
     height: 300px;
     margin-left: 10px;
-    
-    
+    border: 1px solid #eee;
+  box-shadow: 4px 8px 22px rgba(0,0,0,.06);
+  border-radius: 4px;
 }
 
 h1 {
@@ -92,3 +92,42 @@ button {
 }
 
 .tour {
+    height: 200px;
+    width: auto;
+    border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  
+
+}
+.dates {
+    color: rgb(53, 175, 175);
+    margin-top: -8%;
+    
+}
+.title {
+   margin-left: 10px;
+}
+.container {
+    background-color: rgb(49, 83, 112) ;
+    height: 500px;
+    display: flex;
+ 
+}
+.tour, .desc {
+    display: flex;
+    align-self: center;
+    margin-bottom: 100px;
+  
+}
+.desc {
+  color: rgb(151, 166, 180);
+  margin-left: -15px;
+  margin-right: 35px;
+    
+}
+
+.tour {
+    margin-left: -30px;
+    margin-right: 20px;
+}
