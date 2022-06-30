@@ -27,9 +27,8 @@ h3 {
     background-color: rgb(72, 87, 100);
 display: flex;
     justify-content: space-between;
-    height: 70px;
-    
-   
+    height: 60px;
+    box-shadow: 20px 20px 40px rgb(0, 0, 0);
 }
 
 .left {
@@ -63,8 +62,8 @@ display: flex;
 
 .advert {
     background-color:rgb(85, 107, 126) ;
-    height: 430px;
-    
+    height: 450px;
+    box-shadow: 20px 20px 40px rgb(0, 0, 0);
     display: flex;
    justify-content: center;
    align-items: center;
@@ -121,7 +120,8 @@ button {
 }
 .container {
     background-color: rgb(49, 83, 112) ;
-    height: 400px;
+    height: 420px;
+    box-shadow: 20px 20px 40px rgb(0, 0, 0);
     display: flex;
  
 }
@@ -148,7 +148,8 @@ button {
 
 .footer {
     background-color: rgb(49, 62, 73);
-    height: 82px;
+    height: 52px;
+    box-shadow: 20px 20px 40px rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,6 +178,7 @@ button {
     font-size: 18px;
     color: rgb(206, 218, 228);
     font-family:fantasy;
+    margin-bottom: 7px;
     
     
 }
@@ -191,6 +193,6 @@ button {
     font-size: 18px;
     margin-left: 8px;
     align-self: flex-end;
-    margin-bottom: 18px;
+    margin-bottom: 7px;
     
 }
